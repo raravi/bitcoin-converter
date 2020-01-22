@@ -4,7 +4,7 @@
   var bitcoinField = document.querySelector('.bitcoinfield__input');
   var inrField = document.querySelector('.inrfield__input');
   var urls = ['https://blockchain.info/ticker',
-              'http://data.fixer.io/api/latest?access_key=c88ca5ec463e3d87fff9015cafcc3ca3&symbols=USD,INR'];
+              'http://data.fixer.io/api/latest?access_key=YOUR_API_KEY&symbols=USD,INR'];
   var httpRequest1, httpRequest2;
   var bitcoinToUSD, eurToUSD, eurToINR;
 

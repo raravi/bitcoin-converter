@@ -4,7 +4,7 @@
   let bitcoinField = document.querySelector('.bitcoinfield__input');
   let inrField = document.querySelector('.inrfield__input');
   let urls = ['https://blockchain.info/ticker',
-              'http://data.fixer.io/api/latest?access_key=c88ca5ec463e3d87fff9015cafcc3ca3&symbols=USD,INR'];
+              'http://data.fixer.io/api/latest?access_key=YOUR_API_KEY&symbols=USD,INR'];
   function formSubmitted(event) {
     let bitcoinToUSD, eurToUSD, eurToINR;
     fetch(urls[0])
