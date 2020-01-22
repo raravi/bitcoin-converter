@@ -18,7 +18,7 @@ This file is written in classical style, using the XMLHttpRequest to fetch data 
 
 This uses the Fetch API (introduced in ES6) and the code is easier to read than before. The code also makes use of Promise chaining for easy maintenance. The APIs are fetched one after the other, mimicking calls to the XMLHttpRequest in the previous main-es5.js file.
 
-## 4 main-es6-parallelfetch.js
+## 4. main-es6-parallelfetch.js
 
 This uses the Fetch API and Promises. Instead of calling the APIs one after the other, Promise.all is used to fetch the APIs in parallel.
 
