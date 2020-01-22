@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bitcoin Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__text">Bitcoin Converter</h1>
+      </header>
+      <section class="bitcoin">
+        <form class="bitcoin__form" action="javascript:;" onsubmit="formSubmitted(event)">
+          <fieldset class="bitcoinfield">
+            <label for="bitcoin" class="bitcoinfield__label">Bitcoin</label><br>
+            <input type="text" name="bitcoin" class="bitcoinfield__input" value="1.00">
+          </fieldset>
+          <fieldset class="inrfield">
+            <label for="inr" class="inrfield__label">INR</label><br>
+            <input type="text" name="inr" class="inrfield__input" readonly>
+          </fieldset>
+          <div class="bitcoin__clear">
+          </div>
+          <button type="submit" class="bitcoin__submit">Get INR</button>
+        </form>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
