@@ -31,3 +31,5 @@ This uses the `Fetch API` and `Promises`. Instead of calling the APIs one after 
 ## 6. main-es8-parallelfetch.js
 
 `async/await` is used to fetch APIs concurrently using `Promise.all`. Readable and easier code, makes it quite easy to maintain.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y21VCIL)
